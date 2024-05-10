@@ -1,0 +1,12 @@
+<h2>We played scissors!</h2>
+<h2>They played <%=@display%>! </h2>
+<% if @display == "rock" %>
+  <h2>We lost!</h2>
+<% end %>
+<% if @display == "paper" %>
+  <h2>We won!</h2>
+<% end %>
+<% if @display == "scissors" %>
+  <h2>We tied!</h2>
+<% end %>
+<div><a href="/">Rules</a></div>
